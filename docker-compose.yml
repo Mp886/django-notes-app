@@ -3,6 +3,5 @@ version: "3.8"
 services:
   web :
      image: "beast106/notes-app:latest"
-       context: .
      ports : 
          - "8000:8000"
